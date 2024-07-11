@@ -2,8 +2,8 @@
 #include <WebServer.h>
 #include <WebSocketsServer_Generic.h>
 
-const char* ssid = "JAGADEESH";
-const char* password = "6380251481";
+const char* ssid = "";
+const char* password = "";
 
 WebServer server(80);
 WebSocketsServer webSocketServer(81);
